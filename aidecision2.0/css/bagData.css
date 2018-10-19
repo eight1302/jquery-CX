@@ -1,0 +1,65 @@
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+i.i{font-style:normal;padding-right:4px;}
+.hide1{display:none;}
+input[type=date]{line-height:inherit;}
+.wrap{margin:20px;}
+.search-top{min-height:48px;font-size:12px;}
+.search-top a{color:#666;}
+.search-top .all-classify{float:left;margin-top:14px;width:950px;height:33px;overflow: hidden;}
+.search-top .all-classify .all-sub-classify{height:34px;display: inline-block;position:relative;vertical-align: top;padding-top:10px;font-family: Consolas;}
+.search-top .all-classify a span{display: inline-block;max-width:140px;white-space: nowrap; overflow: hidden;text-overflow: ellipsis;}
+.search-top .all-classify .all-classify-item{padding:3px 4px;border:1px solid #e8e8e8;display:inline-block;margin: 5px 5px 7px 0;height:24px;line-height:18px;}
+.search-top .all-classify .all-classify-item i.fa{padding-left:2px;vertical-align: middle;position:relative;top:-6px;}
+.search-top .all-classify .all-classify-item:hover{border-color:#ff4400;}
+.search-top .all-classify .all-classify-item:hover i.fa{color:red;}
+.search-top .search-filter{float:right;width:80px;height:24px;line-height:24px;text-align:center;margin-top:12px;background:#f6f6f6;border:1px solid #e8e8e8;}
+.search-top .search-filter:hover{color:#ff4400;}
+.search-main{border:1px solid #e8e8e8;padding:0 8px;}
+.search-main .search-main-item{border-bottom:1px dashed #dedede; position:relative;}
+.search-main .search-main-item:last-child{border:none;}
+.search-main .search-main-item .search-item-l{width:112px;float:left;}
+.search-main .search-main-item .search-item-c{max-height:108px;overflow: hidden;margin:0 150px 0 112px;}
+.search-main .search-main-item .maxheight{max-height: 300px !important;}
+.search-main .search-main-item .search-item-r{position:absolute;right:0;top:0;}
+.header{color:#999;padding-left:10px;height:36px;line-height:36px;display:inline-block;}
+.header:hover{color:#ff4400;}
+.search-main .search-main-item .search-item-c .c-item{height:36px;line-height:36px;margin-right:40px;color:#000;display: inline-block;}
+.search-main .search-main-item .search-item-c .c-item:hover{color:#ff4400;}
+.search-main .search-main-item .search-item-c .remind{height:36px;text-align:center;}
+.search-main .search-main-item .search-item-c .remind a{height:20px;margin-top:8px;width:36px;display:inline-block;margin-right:10px;line-height:20px;border-radius:3px;}
+.search-main .search-main-item .search-item-c .remind a.checkAll{background: #f94700;color:#fff;}
+.search-main .search-main-item .search-item-c .remind a.assured{background:#f94700;color:#fff;}
+.search-main .search-main-item .search-item-c .remind a.cancel{border:1px solid #e8e8e8;color:#404040;}
+.search-main .search-main-item .search-item-c .search-item-c-d{margin-top:7px;}
+.search-main .search-main-item .search-item-c .search-item-c-s{margin-top:7px;width:100px;height:22px;}
+.search-main .search-main-item .search-item-c .date-range{margin-left:20px;display:inline-block;}
+.search-main .search-main-item .search-item-c .hide1{display:none;}
+.queryList{height:50px;}
+span.list{display:inline-block;width:60px;color:#999;}
+/*排序*/
+.sort{height:42px;border:1px solid #e8e8e8;margin-top:10px;background:#f5f5f5;}
+.sort a{float:left;position:relative;}
+.sort a ul{width:100%;position:absolute;z-index:10;display:none;text-align:center;color:#000;background:#f5f5f5;}
+.sort a span{height:40px;line-height:40px;padding:0 6px;color:#6d6d6d;;border-right:1px solid #f5f5f5;display:block;}
+.sort a .active{background:#fff;color:#ff5500;border-right:1px solid #e8e8e8;}
+.sort a:hover span{background:#fff;color:#ff5500;border-right:1px solid #e8e8e8;}
+.sort a:hover ul{display:block;}
+.sort a ul li:hover{color:#ff5500;}
+.sort .sort-item{float:left;}
+.sort .pattern{float:right;}
+/*查询按钮*/
+.query{margin:10px 30px 5px;}
+/*表格*/
+.tableDiv{padding:20px;font-size:12px;}
+#table>thead>tr>th{border:1px solid #ddd;}
+#table>tbody>tr>td{border:1px solid #ddd;}
+#table>tfoot>tr>td{border:1px solid #ddd;}
+#table tfoot span{display:block;}
+#table th,#table td{text-align:center;}
+.colorBar{padding-left:20px;position:relative;}
+.colorBar p{position:absolute;width:15px;height:15px;border-radius:50%;left:-1px;top:3px;}
+.act{
+  background: #0088cccf;
+  color: #fff;
+}
